@@ -6,7 +6,6 @@ require 'formula'
 class Libphutil < Formula
   homepage 'http://phabricator.org/'
   url 'https://github.com/facebook/libphutil/tarball/master'
-  sha1 '6cdee821448324cb537196935f0a07d17c3db744'
   version '0.1'
 
   keg_only 'Only used as a library for arcanist'
