@@ -11,7 +11,7 @@ class Arcanist < Formula
 
   def install
     # Get the location of libphutil so you can link arcanist to them
-    var = `brew --prefix libphutil`.strip
+    var = `/usr/local/bin/brew --prefix libphutil`.strip
 
     # Create the path where arcanist will look for libphutil
     FileUtils.mkdir_p 'externals/includes'
